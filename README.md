@@ -27,8 +27,16 @@
    2. Ative:
   
     ./venv/scripts/activate
-       
-   3. Execute o servidor:
+   
+   3. Instale os requisitos da aplicação:
+  
+    pip install -r requirements.txt
+   
+   4. Execute as migrações:
+  
+    python manage.py migrate
+   
+   5. Execute o servidor:
     
     python manage.py runserver
   
